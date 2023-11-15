@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modül Örnek Çalışma</title>
+    <style>
+        .urunler {
+            display: flex;
+        }
+
+        #urunList {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .urun {
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="module" src="assets/main.js"></script>
+
+    <button id="getir">Ürünleri Getir</button>
+    <div class="urunler">
+        <div id="urunList"></div>
+    </div>
+
+</body>
+
+</html>

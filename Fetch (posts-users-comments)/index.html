@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <style>
+        .posts {
+
+        }
+
+        #postList {
+
+        }
+
+        .post, .user, .comment {
+            padding: 5px 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        h4{
+          font-size: 20px;  
+          margin: 3px;
+        }
+        p{
+            margin: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="module" src="assets/post.js"></script>
+    <script type="module" src="assets/comment.js"></script>
+    <script type="module" src="assets/users.js"></script>
+    <script type="module" src="assets/main.js"></script>
+
+    <button id="postGetir">Posts Getir</button>
+    <div class="posts">
+        <div id="postList"></div>
+    </div>
+
+    <button id="userGetir">Users Getir</button>
+    <div class="users">
+        <div id="userList"></div>
+    </div>
+
+    <button id="commentGetir">Comments Getir</button>
+    <div class="comments">
+        <div id="commentList"></div>
+    </div>
+</body>
+
+</html>
